@@ -11,7 +11,7 @@ node classic-package/vanilla.js
 node classic-package/vanilla.cjs
 node module-package/esm.js
 node module-package/vanilla.cjs
-node -e 'require("ai-jsx")'
+node -e 'console.log(require("ai-jsx"))'
 
 rm -rf dist
 
