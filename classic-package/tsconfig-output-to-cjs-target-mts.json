@@ -2,6 +2,7 @@
   "extends": "@tsconfig/node18/tsconfig.json",
   "include": ["*.mts"],
   "compilerOptions": {
+    "lib": ["dom"],
     "moduleResolution": "node16",
     "module": "CommonJS",
     "outDir": "dist/cjs",
