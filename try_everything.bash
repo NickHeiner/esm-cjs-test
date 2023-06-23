@@ -14,6 +14,7 @@ node classic-package/vanilla.cjs
 node module-package/esm.js
 node module-package/vanilla.cjs
 node -e 'console.log(require("ai-jsx"))'
+npx tsc -p classic-package/tsconfig-output-to-esm-resolution-node.json
 
 rm -rf */dist
 

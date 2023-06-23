@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig-output-to-esm.json",
+  "include": ["*.ts", "*.mts"],
+}

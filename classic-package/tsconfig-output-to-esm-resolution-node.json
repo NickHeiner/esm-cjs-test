@@ -2,8 +2,7 @@
   "extends": "@tsconfig/node18/tsconfig.json",
   "include": ["*.ts", "*.mts"],
   "compilerOptions": {
-    "lib": ["dom"],
-    "moduleResolution": "node16",
+    "moduleResolution": "node",
     "module": "ESNext",
     "outDir": "dist/esm",
   }
