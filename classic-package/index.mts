@@ -1,4 +1,4 @@
-import * as ai from 'ai-jsx';
+import * as ai from 'ai-jsx/stream';
 import * as calc from 'langchain/tools/calculator';
 
 console.log(ai);
